@@ -8,6 +8,8 @@ This installs NGINX
 This creates accounts to authenicate
 # sudo htpasswd -c /etc/nginx/htpasswd.users kibanauser 
 This creates a new user
+You will also be prompted to create a user for a password for this user
+
 # Start copy here to other #
 worker_processes  1;
 events {
